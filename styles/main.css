@@ -17,3 +17,9 @@ header h2{
     color: maroon;
     text-indent: 30px;
 }
+header img {
+    float: Left;
+}
+.shadow{
+    text-shadow: 2px 2px 2px rgb(128,0,0);
+}
