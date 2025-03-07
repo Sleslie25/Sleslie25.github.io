@@ -22,7 +22,7 @@ a:hover, a:focus{
     border-style: dotted solid;
 }
 header{
-    border-bottom: 2px solid maroon;
+    border-bottom: 2px solid green;
 }
 h2 {
     padding: 1em;
