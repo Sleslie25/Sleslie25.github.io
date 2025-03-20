@@ -1,11 +1,11 @@
 #nav_menu ul { list-style-type: none; }
 #nav_menu ul li { float: left; }
 #nav_menu ul li a {
-text-align: center;
-display: block;
-width: 175px;
-padding: 1em 0; /* padding above and below a
-elements */
+    text-align: center;
+    display: block;
+    width: 175px;
+    padding: 1em 0; /* padding above and below a
+    elements */
 text-decoration: none;
 background-color: blue;
 color: white;
