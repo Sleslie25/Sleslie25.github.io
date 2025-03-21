@@ -89,3 +89,17 @@ header h1{
     margin-left: 1em;
     padding-top: 0;
 }
+a:focus, a:hover{
+    font-style: italic;
+    color: blue;
+    border: 3px blue;
+    border-style: dotted solid;
+}
+footer {
+    clear: both;
+    border-top: 2px solid blue;
+}
+footer p {
+    text-align: center;
+}
+   
