@@ -14,12 +14,28 @@ width: 175px;
 padding: 1em 0; /* padding above and below a
 elements */
 text-decoration: none;
-background-color: blue;
+background-color: lightblue;
 color: white;
 font-weight: bold;
-border-right: 2px solid white; }
-#nav_menu ul li a.lastitem { border-right: none;}
+border-right: 2px solid white; 
+margin-bottom: 20px;
+}
 #nav_menu ul li a.current { color: yellow; }
-article h1 {
-    padding-top: 80px;
-    }
+header{
+    margin-top: 3em;
+    padding-top: 1em;
+    border-top: 2px solid blue;
+    text-align: left;
+}
+article{
+    clear: left;
+    width: 75%;
+    float: left;
+    column-count: 3;
+    column-rule: 4px dashed blue;
+    column-gap: 2em;
+    margin-left: 2em;
+}
+article h1{
+    padding-top: 30px;
+}
