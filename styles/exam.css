@@ -39,3 +39,22 @@ article{
 article h1{
     padding-top: 30px;
 }
+article h2 {
+    margin-top: 1em;
+    margin-left: 0;
+    margin-bottom: 1em;
+}
+article h3{
+    column-span: all;    
+}
+article p::first-letter {
+    font-size: 3em;
+    font-weight: bold;
+    font-style: italic;
+    color:blue
+}
+article img{
+    float: left;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
