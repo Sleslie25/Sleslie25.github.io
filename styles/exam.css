@@ -69,6 +69,15 @@ aside{
     position: fixed;
     right: 0;
 }
+ol.upper-roman{
+    list-style-type: upper-roman;
+}
+ul.square {
+    list-style-type: square;
+}
+ol.lower-alpha {
+    list-style-type: lower-alpha;
+}
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
