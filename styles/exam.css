@@ -1,3 +1,6 @@
 #nav_menu{
     padding-bottom:1em;
 }
+#nav_menu ul{
+    list-style-type: none;
+}
