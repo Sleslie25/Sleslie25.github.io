@@ -88,5 +88,6 @@ ol.lower-alpha {
         padding: 15px 1.5em;
         border: 1px solid blue;
         border-radius: 25px;
-        border-shadow: 
+        box-shadow: 5px 5px 0 0;
+        background-image: url("../images/logo.jpeg");
     }
