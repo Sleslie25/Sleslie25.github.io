@@ -10,7 +10,6 @@ body {
     padding: 15px 1.5em;
     border: 1px solid black;
     border-radius: 25px;
-    border-top: 3px solid maroon;
     box-shadow: 5px 5px 0 0;
 
 }
@@ -21,7 +20,7 @@ a:hover, a:focus{
     border-style: dotted solid;
 }
 header{
-    border-bottom: 10px solid maroon;
+    border-bottom: 3px solid maroon;
 }
 h2 {
     padding: 1em;
