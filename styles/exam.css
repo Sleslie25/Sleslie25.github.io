@@ -45,7 +45,7 @@ ol.lower-alpha {
         width: 75%;
         float: left;
         column-count: 3;
-        column-rule: 3px dashed blue;
+        column-rule: 6px dashed blue;
         column-gap: 2em;
         margin-left: 2em;
     }
