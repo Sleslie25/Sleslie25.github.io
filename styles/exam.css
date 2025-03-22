@@ -95,7 +95,6 @@ ol.lower-alpha {
         background-image: url("../images/logo.jpeg");
         background-position: right;
         background-repeat: repeat-y;
-        background-attachment: repeat-y;
         background-attachment: fixed;
     }
     header h1{
