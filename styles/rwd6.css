@@ -114,4 +114,7 @@ html, body {
         font-size: .8em;
     }
     
-    @media 
+    @media only screen and(max-width: 700px)
+    {
+        
+    }
