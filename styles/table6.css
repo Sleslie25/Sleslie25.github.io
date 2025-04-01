@@ -20,7 +20,7 @@ html, body {
     /*-----------------------------------------------------------*/
     table.second {
     border-collapse: collapse;
-    border: 2px solid purple;
+    border: 5px solid yellow;
     caption-side: bottom;
     }
     table.second th {
