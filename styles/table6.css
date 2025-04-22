@@ -32,7 +32,7 @@ html, body {
     border: 2px solid orangered;
     }
     table.second thead tr:first-child{
-    border-bottom: 2px solid purple;
+    border-bottom: 2px solid orangered;
     }
     table.third {
     border-collapse: collapse;
