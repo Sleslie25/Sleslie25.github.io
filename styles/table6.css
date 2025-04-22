@@ -36,7 +36,7 @@ html, body {
     }
     table.third {
     border-collapse: collapse;
-    border: 5px solid purple;
+    border: 5px solid orangered;
     caption-side: bottom;
     }
     table.third th {
