@@ -35,22 +35,18 @@ html, body {
     border-bottom: 2px solid purple;
     }
     table.third {
-    border-collapse: collapse;
-    border: 5px solid orangered;
-    caption-side: bottom;
+        border-collapse: collapse;
+        border-top: 2px solid orangered;
+        border-bottom: 2px solid orangered;
+        caption-side: bottom;}
+    table.third th{
+        background-color: lightgreen;
+        border-top: 2px solid orangered;
+        border-bottom: 2px solid orangered;}
+    table.third th, table.third td {
+        padding: 0.7em;
+        vertical-align: middle;
     }
-    table.third th {
-    background-color: lightgreen;
-    }
-    table.third th, table.second td {
-    padding: 0.7em;
-    vertical-align: middle;
-    border: 2px solid purple;
-    }
-    table.third thead tr:first-child{
-    border-bottom: 2px solid purple;
-    }
-
     @media only screen and (max-width: 425px) {
         th, td {
         display: block;
