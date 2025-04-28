@@ -1,13 +1,28 @@
-header{
-    border-bottom: 2px solid blue;
-    padding-bottom: 1em;
-    display: block;
+.header-container {
+    display: flex;
+    align-items: center; /* Aligns h1 and menu vertically */
+    justify-content: space-between; /* Spaces them evenly */
     padding: 1em;
+    border-bottom: 2px solid blue;
 }
 
-#nav_menu ul{list-style-type: none;}
+h1 {
+    background-color: blue;
+    color: white;
+    padding: 1em;
+    margin: 0;
+}
 
-#nav_menu ul li {float: right;}
+#nav_menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Makes nav links inline */
+}
+
+#nav_menu ul li {
+    float: none; /* Remove float */
+}
 
 #nav_menu ul li a {
     text-align: center;
@@ -19,10 +34,4 @@ header{
     color: white;
     font-weight: bold;
     border-right: 2px solid white;
-}
-h1{
-    background-color: blue; 
-    color: white; 
-    padding: 1em; 
-    display: inline-block;
 }
