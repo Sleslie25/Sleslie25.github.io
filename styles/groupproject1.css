@@ -7,3 +7,5 @@ header{
 
 #nav_menu ul{list-style-type: none;}
 
+#nav_menu ul li {float: right;}
+
