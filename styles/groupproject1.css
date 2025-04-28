@@ -9,3 +9,10 @@ header{
 
 #nav_menu ul li {float: right;}
 
+#nav_menu ul li a {
+    text-align: center;
+    display: block;
+    width: 175px;
+    
+
+}
