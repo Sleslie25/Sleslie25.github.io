@@ -1,4 +1,6 @@
 header{
     border-bottom: 2px solid blue;
     padding-bottom: 1em;
+    display: block;
+    padding: 1em;
 }
