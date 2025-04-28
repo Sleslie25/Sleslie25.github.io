@@ -1,37 +1,50 @@
+/* General Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Header Styling */
 .header-container {
     display: flex;
-    align-items: center; /* Aligns h1 and menu vertically */
-    justify-content: space-between; /* Spaces them evenly */
-    padding: 1em;
-    border-bottom: 2px solid blue;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em 2em;
+    border-bottom: 3px solid #003366;
+    background: linear-gradient(to right, #003366, #0077b6); /* Gradient */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Subtle shadow */
 }
 
 h1 {
-    background-color: blue;
     color: white;
-    padding: 1em;
+    font-size: 1.8em;
+    font-weight: 700;
     margin: 0;
 }
 
+/* Navigation Menu */
 #nav_menu ul {
     list-style-type: none;
+    display: flex;
+    gap: 15px;
     padding: 0;
     margin: 0;
-    display: flex; /* Makes nav links inline */
-}
-
-#nav_menu ul li {
-    float: none; /* Remove float */
 }
 
 #nav_menu ul li a {
-    text-align: center;
-    display: block;
-    width: 175px;
-    padding: 1em;
     text-decoration: none;
-    background-color: orange;
     color: white;
+    background-color: #ff8800;
+    padding: 12px 20px;
+    border-radius: 8px;
     font-weight: bold;
-    border-right: 2px solid white;
+    transition: all 0.3s ease-in-out;
+}
+
+#nav_menu ul li a:hover {
+    background-color: #ff6600;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05);
 }
