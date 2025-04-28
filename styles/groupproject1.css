@@ -12,8 +12,8 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 1em 2em;
-    border-bottom: 3px solid #003366;
-    background: linear-gradient(to right, #003366, #0077b6); /* Gradient */
+    border-bottom: 3px solid blue;
+    background: blues; /* Gradient */
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Subtle shadow */
 }
 
