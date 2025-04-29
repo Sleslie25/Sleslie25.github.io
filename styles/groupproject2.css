@@ -105,37 +105,37 @@ height: auto;
 margin-right: 30px;
 }
 
-body.footer-columns {
+footer-columns {
 display: flex;
 flex: 1;
 justify-content: flex-end;
 }
 
-body.footer-column {
+footer-column {
 flex: 1;
 min-width: 200px;
 margin: 10px;
 }
 
-body.footer-column h4 {
+footer-column h4 {
 margin-bottom: 15px;
 font-size: 18px;
 border-bottom: 1px solid #ffffff;
 padding-bottom: 5px;
 }
 
-body.footer-column p {
+footer-column p {
 margin-bottom: 15px;
 font-size: 14px;
 line-height: 1.5;
 }
 
-body.footer-column a {
+footer-column a {
 color: #ffffff;
 text-decoration: none;
 }
 
-body.footer-column a:hover {
+footer-column a:hover {
 text-decoration: underline;
 }
 .body-content {
